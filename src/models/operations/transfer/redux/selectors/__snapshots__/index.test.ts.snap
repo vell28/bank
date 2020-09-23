@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transfer to card selector tests getPaymentCardData should return paymentContact of card request 1`] = `
+Object {
+  "payment_contact": Object {
+    "account": "PPY5107",
+    "amount": Object {
+      "sum": Object {
+        "currency": Object {
+          "code": "EUR",
+        },
+        "value": "10",
+      },
+    },
+    "beneficiaryName": "Test",
+    "cardNumber": "123123",
+    "fromCardId": "",
+    "purpose": "test",
+  },
+}
+`;
+
+exports[`transfer to card selector tests getPaymentContactData should return paymentContact of contact request 1`] = `
+Object {
+  "payment_contact": Object {
+    "account": "PPY5107",
+    "amount": Object {
+      "sum": Object {
+        "currency": Object {
+          "code": "EUR",
+        },
+        "value": "10",
+      },
+    },
+    "phoneNumber": "123123123",
+    "purpose": "test",
+  },
+}
+`;
+
+exports[`transfer to card selector tests getPaymentSepaData should return paymentSepa 1`] = `
+Object {
+  "payment_sepa": Object {
+    "account": "PPY5107",
+    "amount": Object {
+      "sum": Object {
+        "currency": Object {
+          "code": "EUR",
+        },
+        "value": "20",
+      },
+    },
+    "beneficiaryName": "beneficiaryName",
+    "iban": "MT422PAPY368360000026763123123",
+    "purpose": "purpose",
+    "transferDetails": "transferDetails",
+  },
+}
+`;
+
+exports[`transfer to card selector tests getPaymentSwiftData should return paymentSwift 1`] = `
+Object {
+  "payment_swift": Object {
+    "account": "PPY5107",
+    "address": "Riga, Hipokrata, 22",
+    "amount": Object {
+      "sum": Object {
+        "currency": Object {
+          "code": "EUR",
+        },
+        "value": "30",
+      },
+    },
+    "beneficiaryAccount": "LV21HABA0001408032543",
+    "beneficiaryBank": "SB",
+    "beneficiaryName": "beneficiaryName",
+    "city": "Riga",
+    "commissionType": "SENDER",
+    "country": "LV",
+    "intermediaryAccount": "intermediaryAccount",
+    "intermediaryBank": "intermediaryBank",
+    "intermediarySwift": "intermediarySwift",
+    "purpose": "purpose",
+    "swiftCode": "HABALV22",
+    "urgency": "NORMAL",
+  },
+}
+`;

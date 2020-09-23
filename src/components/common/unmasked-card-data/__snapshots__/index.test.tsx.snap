@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UnmaskedCardPreview /> UI tests Should success render <UnmaskedCardPreview />, with pin code 1`] = `
+<div
+  class="sc-AxjAm chJldz"
+>
+  <h2
+    class="sc-AxirZ dvplQK"
+  >
+    Show Card Data
+  </h2>
+  <div
+    class="sc-AxiKw dEvlfm"
+  >
+    <div
+      class="sc-AxmLO ibTasE"
+      size="28"
+    >
+      <span
+        class="sc-Axmtr cPocuF"
+        size="28"
+      />
+      <div
+        class="sc-fzozJi dDyLif"
+      >
+        <label
+          class="sc-AxhCb iJHZWh"
+        >
+          <span
+            class="sc-AxhUy dSbFOW"
+          >
+            Card Number
+          </span>
+          <span
+            class="sc-AxgMl Dzbyt"
+          >
+            5277 60* **** 4032
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxiKw dEvlfm"
+  >
+    <div
+      class="sc-AxmLO ibTasE"
+      size="28"
+    >
+      <span
+        class="sc-Axmtr cPocuF"
+        size="28"
+      />
+      <div
+        class="sc-fzozJi dDyLif"
+      >
+        <label
+          class="sc-AxhCb iJHZWh"
+        >
+          <span
+            class="sc-AxhUy dSbFOW"
+          >
+            Expiry Date
+          </span>
+          <span
+            class="sc-AxgMl Dzbyt"
+          >
+            **/**
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxiKw dEvlfm"
+  >
+    <div
+      class="sc-AxmLO ibTasE"
+      size="28"
+    >
+      <span
+        class="sc-Axmtr cPocuF"
+        size="28"
+      />
+      <div
+        class="sc-fzozJi dDyLif"
+      >
+        <label
+          class="sc-AxhCb iJHZWh"
+        >
+          <span
+            class="sc-AxhUy dSbFOW"
+          >
+            CVC
+          </span>
+          <span
+            class="sc-AxgMl Dzbyt"
+          >
+            ***
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxiKw dEvlfm"
+  >
+    <div
+      class="sc-AxmLO ibTasE"
+      size="28"
+    >
+      <span
+        class="sc-Axmtr cPocuF"
+        size="28"
+      />
+      <div
+        class="sc-fzozJi dDyLif"
+      >
+        <label
+          class="sc-AxhCb iJHZWh"
+        >
+          <span
+            class="sc-AxhUy dSbFOW"
+          >
+            PIN
+          </span>
+          <span
+            class="sc-AxgMl Dzbyt"
+          >
+            ****
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxiKw dEvlfm"
+  >
+    <div
+      class="sc-AxheI ilEEcW"
+    >
+      <div
+        class="sc-fzpans gQNnUB"
+      >
+        <div
+          class="sc-fzplWN bDicWg"
+        />
+        <span
+          class="sc-fzoLsD gJcKWQ"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<UnmaskedCardPreview /> UI tests Test unmask function 1`] = `"Show Card DataCard Number5277 60* **** 4032Expiry Date**/**CVC***PIN****"`;

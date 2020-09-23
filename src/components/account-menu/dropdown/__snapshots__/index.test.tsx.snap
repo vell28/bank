@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountMenuDropdown /> tests should success render, should been unchecked 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "breakpoints": Array [
+        "576px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "alto": "#dedede",
+        "asparagus": "#77a45c",
+        "black": "#000000",
+        "blue": "#008cff",
+        "blueLight": "#70cde4",
+        "borderLight": "#cad3db",
+        "dark": "#030303",
+        "darkBlue": "#011f3d",
+        "darkBlue2": "#132F4B",
+        "elephant": "#12304b",
+        "feijoa": "#93d77e",
+        "gray": "#a5adb8",
+        "gray10": "#cad3db",
+        "gray11": "#959fac",
+        "gray2": "#a7a9ac",
+        "gray3": "#a1aab6",
+        "gray4": "#e8e8e8",
+        "gray5": "#cbcbcb",
+        "gray6": "#eaeaea",
+        "gray7": "#acacac",
+        "gray9": "#9faab7",
+        "grayHover": "#00000008",
+        "grayLight": "#cdd0d5",
+        "green": "#7ed321",
+        "green1": "#5ba00f",
+        "green2": "#4dd964",
+        "green3": "#77a45c",
+        "green4": "#b1de6b",
+        "greenLight": "#d9f9b6",
+        "light": "#d5dae0",
+        "malibu": "#53b8ff",
+        "navy": "#01172d",
+        "orange": "#e4be79",
+        "persimmon": "#ff5353",
+        "purple": "#a479cb",
+        "red": "#e10606",
+        "red2": "#ff2e7b",
+        "red3": "#ea4848",
+        "rose": "#d08484",
+        "slate": "#596778",
+        "submarine": "#b6bcc4",
+        "turquoise": "#79cbcb",
+        "white": "#ffffff",
+        "white2": "#dddddd",
+      },
+      "dimension": Object {},
+      "fonts": Object {
+        "faFontsPath": "/css/webfonts",
+        "fontFamily": "AvenirNext, Arial",
+      },
+      "name": "main-dark-theme",
+      "size": "default",
+      "typography": Object {
+        "bodyBackground": "#011f3d",
+        "bodyFontColor": "#ffffff",
+        "bodyFontFamily": "AvenirNext, Arial",
+        "globalFontSize": "1.6rem",
+        "globalLineHeight": 1.5,
+        "globalWeightNormal": 400,
+        "headersFontColor": "#ffffff",
+        "headersFontFamily": "AvenirNext, Arial",
+        "headersFontWeight": 700,
+      },
+    }
+  }
+>
+  <AccountMenuDropdown
+    businessAccounts={
+      Array [
+        Object {
+          "accountName": "MT98PAPY36836000002676370004519",
+          "accountType": "JURIDICAL",
+          "accruedInterest": null,
+          "availableBalance": 1897.61,
+          "availableOperations": Array [],
+          "balance": 0,
+          "balanceHold": 0,
+          "balances": Array [
+            Object {
+              "availableBalance": 1897.61,
+              "balance": 1030.05,
+              "balanceHold": 0,
+              "currency": "EUR",
+            },
+          ],
+          "bonusProgramActivate": false,
+          "clientId": "6449",
+          "color": "DEFAULT",
+          "createdAt": "2019-11-24T14:59:55",
+          "currency": Object {
+            "code": "EUR",
+          },
+          "id": "PPY6666",
+          "number": "MT98PAPY36836000002676370004519",
+          "status": "ACTIVE",
+        },
+      ]
+    }
+    onDone={[MockFunction]}
+    personalAccounts={
+      Array [
+        Object {
+          "accountName": "MT98PAPY36836000002676370004519",
+          "accountType": "PHYSICAL",
+          "accruedInterest": null,
+          "availableBalance": 1897.61,
+          "availableOperations": Array [],
+          "balance": 0,
+          "balanceHold": 0,
+          "balances": Array [
+            Object {
+              "availableBalance": 1897.61,
+              "balance": 1030.05,
+              "balanceHold": 0,
+              "currency": "EUR",
+            },
+          ],
+          "bonusProgramActivate": false,
+          "clientId": "6449",
+          "color": "DEFAULT",
+          "createdAt": "2019-11-24T14:59:55",
+          "currency": Object {
+            "code": "EUR",
+          },
+          "id": "PPY5107",
+          "number": "MT98PAPY36836000002676370004519",
+          "status": "ACTIVE",
+        },
+      ]
+    }
+  >
+    <styled.div
+      data-overflow="true"
+    >
+      <div
+        className="sc-AxjAm hEOMRA"
+        data-overflow="true"
+      >
+        <styled.div>
+          <div
+            className="sc-AxiKw xorXm"
+          >
+            <styled.div
+              left={31}
+            >
+              <div
+                className="sc-AxhCb cvqgRz"
+              >
+                <span>
+                  personal
+                </span>
+              </div>
+            </styled.div>
+            <styled.div
+              key="PPY5107EUR"
+            >
+              <div
+                className="sc-AxgMl ivHztB"
+              >
+                <styled.div>
+                  <div
+                    className="sc-AxheI hRvQHy"
+                  >
+                    <CheckBox
+                      isChecked={false}
+                      onCheck={[Function]}
+                    >
+                      <styled.div
+                        isChecked={false}
+                        onClick={[Function]}
+                        size={20}
+                      >
+                        <div
+                          className="sc-fzozJi ihBdPx"
+                          onClick={[Function]}
+                          size={20}
+                        >
+                          <styled.span
+                            size={20}
+                          >
+                            <span
+                              className="sc-AxmLO jGZvWA"
+                              size={20}
+                            />
+                          </styled.span>
+                          <styled.div>
+                            <div
+                              className="sc-fzoLsD kOiJJR"
+                            >
+                              €
+                              1030.05
+                            </div>
+                          </styled.div>
+                        </div>
+                      </styled.div>
+                    </CheckBox>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+            <styled.div
+              left={31}
+              top={27}
+            >
+              <div
+                className="sc-AxhCb eYQlxe"
+              >
+                <span>
+                  business
+                </span>
+              </div>
+            </styled.div>
+            <styled.div
+              key="PPY6666EUR"
+            >
+              <div
+                className="sc-AxgMl ivHztB"
+              >
+                <styled.div>
+                  <div
+                    className="sc-AxheI hRvQHy"
+                  >
+                    <CheckBox
+                      isChecked={false}
+                      onCheck={[Function]}
+                    >
+                      <styled.div
+                        isChecked={false}
+                        onClick={[Function]}
+                        size={20}
+                      >
+                        <div
+                          className="sc-fzozJi ihBdPx"
+                          onClick={[Function]}
+                          size={20}
+                        >
+                          <styled.span
+                            size={20}
+                          >
+                            <span
+                              className="sc-AxmLO jGZvWA"
+                              size={20}
+                            />
+                          </styled.span>
+                          <styled.div>
+                            <div
+                              className="sc-fzoLsD kOiJJR"
+                            >
+                              €
+                              1030.05
+                            </div>
+                          </styled.div>
+                        </div>
+                      </styled.div>
+                    </CheckBox>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+        <styled.div
+          onClick={[Function]}
+        >
+          <div
+            className="sc-AxirZ ixoHnv"
+            onClick={[Function]}
+          >
+            <span>
+              done
+            </span>
+          </div>
+        </styled.div>
+      </div>
+    </styled.div>
+  </AccountMenuDropdown>
+</ThemeProvider>
+`;

@@ -1,0 +1,9 @@
+export { application } from '../../models/application/redux/reducers';
+export { authorization } from '../../models/authorization/redux/reducers';
+export { accountSidebar } from '../../models/account-sidebar/redux/reducers';
+export { organizations } from '../../models/organizations/redux/reducers';
+export { mainModal } from '../../models/main-modal/redux/reducers';
+export { operations } from '../../models/operations';
+export { appErrors } from '../../models/errors/redux/reducers';
+export { transactions } from '../../models/transactions/redux/reducers';
+export { registrationModule } from '../registration/models';

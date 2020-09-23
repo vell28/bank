@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`account  sidebar selector tests getAccountSidebarMenu should return menu 1`] = `
+Object {
+  "accountId": true,
+}
+`;

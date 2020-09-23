@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`application reducers app_reducer/INIT_APP 1`] = `
+Object {
+  "data": Object {
+    "Authorization": "79111111111",
+    "applicationId": "BLACK_CAT_CARD",
+    "productId": "BLACK_CAT_CARD",
+  },
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+}
+`;

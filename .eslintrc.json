@@ -1,0 +1,75 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "tsconfigRootDir": ".",
+    "createDefaultProgram": true
+  },
+  "plugins": ["react", "@typescript-eslint",  "sonarjs", "react-hooks"],
+  "rules": {
+    "no-duplicate-imports": ["error", { "includeExports": true }], // disallow duplicate module imports
+    "sort-imports": "off",
+    "quotes": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "semi": "off",
+    "no-confusing-arrow": "off",
+    "arrow-body-style": "off",
+    "implicit-arrow-linebreak": "off",
+    "max-len": ["error", { "code": 120, "ignoreTemplateLiterals": true, "ignoreStrings": true }],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "no-plusplus": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/interface-name-prefix": ["error", { "prefixWithI": "always"}],
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "no-shadow": ["error", { "builtinGlobals": false, "hoist": "functions", "allow": [] }],
+    "react/prop-types": "off",
+    "no-magic-numbers": "off",
+    "@typescript-eslint/no-magic-numbers": "off",
+    "react/display-name": "off",
+    "@typescript-eslint/camelcase": "off",
+    "camelcase": "off",
+    "comma-dangle": ["error", "only-multiline"],
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-nested-ternary": "off",
+    "react/jsx-props-no-spreading": "off",
+    "sonarjs/no-identical-functions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/state-in-constructor": "off",
+    "no-return-assign": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "no-useless-catch": "off",
+    "consistent-return": "off",
+    "import/export": "off",
+    "sonarjs/no-useless-catch": "off",
+    "react-hooks/exhaustive-deps": "warn"
+  }
+}

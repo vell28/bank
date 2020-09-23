@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`unmasked card selector test getFullUnmaskedSelectedCard should return card with unmasked number 1`] = `
+Object {
+  "cvc": "000",
+  "expireAt": "2022-07-01T00:00:00",
+  "number": "5277 6010 0004 3984",
+  "owner": Object {
+    "embossedName": "Card holder",
+  },
+  "pin": null,
+}
+`;

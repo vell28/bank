@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`organizations selector tests getAccounts should return account list 1`] = `
+Array [
+  Object {
+    "accountName": "MT98PAPY36836000002676370004519",
+    "accountType": "PHYSICAL",
+    "accruedInterest": null,
+    "availableBalance": 1897.61,
+    "availableOperations": Array [],
+    "balance": 0,
+    "balanceHold": 0,
+    "balances": Array [
+      Object {
+        "availableBalance": 1897.61,
+        "balance": 1030.05,
+        "balanceHold": 0,
+        "currency": "EUR",
+      },
+    ],
+    "bonusProgramActivate": false,
+    "clientId": "6449",
+    "color": "DEFAULT",
+    "createdAt": "2019-11-24T14:59:55",
+    "currency": Object {
+      "code": "EUR",
+    },
+    "id": "PPY5107",
+    "number": "MT98PAPY36836000002676370004519",
+    "status": "ACTIVE",
+  },
+  Object {
+    "accountName": "MT98PAPY36836000002676370004519",
+    "accountType": "JURIDICAL",
+    "accruedInterest": null,
+    "availableBalance": 1897.61,
+    "availableOperations": Array [],
+    "balance": 0,
+    "balanceHold": 0,
+    "balances": Array [
+      Object {
+        "availableBalance": 1897.61,
+        "balance": 1030.05,
+        "balanceHold": 0,
+        "currency": "EUR",
+      },
+    ],
+    "bonusProgramActivate": false,
+    "clientId": "6449",
+    "color": "DEFAULT",
+    "createdAt": "2019-11-24T14:59:55",
+    "currency": Object {
+      "code": "EUR",
+    },
+    "id": "PPY6666",
+    "number": "MT98PAPY36836000002676370004519",
+    "status": "ACTIVE",
+  },
+]
+`;
+
+exports[`organizations selector tests getCards should return card list 1`] = `
+Array [
+  Object {
+    "accountId": "PPY5107",
+    "availableBalance": 1897.61,
+    "balance": 0,
+    "balanceHold": 0,
+    "balances": Array [
+      Object {
+        "availableBalance": 1897.61,
+        "balance": 1030.05,
+        "balanceHold": 0,
+        "currency": "EUR",
+      },
+    ],
+    "clientId": "6449",
+    "currency": Object {
+      "code": "EUR",
+    },
+    "expireAt": "2022-05-01T00:00:00",
+    "id": "PPY13643",
+    "limits": Array [
+      Object {
+        "maxValue": 500,
+        "title": null,
+        "type": "DAY",
+        "usedValue": 0,
+      },
+    ],
+    "number": "5277 60_3 984",
+    "options": Object {
+      "limits": Object {
+        "disable": false,
+      },
+    },
+    "owner": Object {
+      "embossedName": "RALF WILLIAMS",
+    },
+    "paySystem": "MASTERCARD",
+    "plasticStatus": "PENDING_SHIPMENT",
+    "productType": "MAIN",
+    "status": "ACTIVE",
+  },
+]
+`;
+
+exports[`organizations selector tests getCurrentCurrencyBalance should return current currency (by pathname) 1`] = `
+Object {
+  "availableBalance": 1897.61,
+  "balance": 1030.05,
+  "balanceHold": 0,
+  "currency": "EUR",
+}
+`;
+
+exports[`organizations selector tests getOrganizations should return organizations 1`] = `
+Array [
+  Object {
+    "accounts": Array [
+      Object {
+        "accountName": "MT98PAPY36836000002676370004519",
+        "accountType": "PHYSICAL",
+        "accruedInterest": null,
+        "availableBalance": 1897.61,
+        "availableOperations": Array [],
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "bonusProgramActivate": false,
+        "clientId": "6449",
+        "color": "DEFAULT",
+        "createdAt": "2019-11-24T14:59:55",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "id": "PPY5107",
+        "number": "MT98PAPY36836000002676370004519",
+        "status": "ACTIVE",
+      },
+      Object {
+        "accountName": "MT98PAPY36836000002676370004519",
+        "accountType": "JURIDICAL",
+        "accruedInterest": null,
+        "availableBalance": 1897.61,
+        "availableOperations": Array [],
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "bonusProgramActivate": false,
+        "clientId": "6449",
+        "color": "DEFAULT",
+        "createdAt": "2019-11-24T14:59:55",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "id": "PPY6666",
+        "number": "MT98PAPY36836000002676370004519",
+        "status": "ACTIVE",
+      },
+    ],
+    "cards": Array [
+      Object {
+        "accountId": "PPY5107",
+        "availableBalance": 1897.61,
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "clientId": "6449",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "expireAt": "2022-05-01T00:00:00",
+        "id": "PPY13643",
+        "limits": Array [
+          Object {
+            "maxValue": 500,
+            "title": null,
+            "type": "DAY",
+            "usedValue": 0,
+          },
+        ],
+        "number": "5277 60_3 984",
+        "options": Object {
+          "limits": Object {
+            "disable": false,
+          },
+        },
+        "owner": Object {
+          "embossedName": "RALF WILLIAMS",
+        },
+        "paySystem": "MASTERCARD",
+        "plasticStatus": "PENDING_SHIPMENT",
+        "productType": "MAIN",
+        "status": "ACTIVE",
+      },
+    ],
+    "client": Object {
+      "address": Object {
+        "apartmentNumber": 0,
+        "city": "Cologne",
+        "countryCode": "DE",
+        "postalCode": "50667",
+        "street": "Domkloster",
+        "streetNumber": "4",
+      },
+      "name": "Frank-Walter Steinmeier",
+      "phoneNumber": "9111111",
+    },
+    "clientName": "Ralf Williams",
+    "id": 1,
+    "name": "papaya",
+    "tin": "PAPYMTMTXXX",
+    "title": "Papaya Ltd",
+  },
+]
+`;
+
+exports[`organizations selector tests getPersonalCheckedBalances should return personal checked balances 1`] = `
+Object {
+  "PPY5107": Array [
+    Object {
+      "availableBalance": 1897.61,
+      "balance": 1030.05,
+      "balanceHold": 0,
+      "currency": "EUR",
+    },
+  ],
+}
+`;

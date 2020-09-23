@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarDropBtn /> SidebarDropBtn 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "breakpoints": Array [
+        "576px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "alto": "#dedede",
+        "asparagus": "#77a45c",
+        "black": "#000000",
+        "blue": "#008cff",
+        "blueLight": "#70cde4",
+        "borderLight": "#cad3db",
+        "dark": "#030303",
+        "darkBlue": "#011f3d",
+        "darkBlue2": "#132F4B",
+        "elephant": "#12304b",
+        "feijoa": "#93d77e",
+        "gray": "#a5adb8",
+        "gray10": "#cad3db",
+        "gray11": "#959fac",
+        "gray2": "#a7a9ac",
+        "gray3": "#a1aab6",
+        "gray4": "#e8e8e8",
+        "gray5": "#cbcbcb",
+        "gray6": "#eaeaea",
+        "gray7": "#acacac",
+        "gray9": "#9faab7",
+        "grayHover": "#00000008",
+        "grayLight": "#cdd0d5",
+        "green": "#7ed321",
+        "green1": "#5ba00f",
+        "green2": "#4dd964",
+        "green3": "#77a45c",
+        "green4": "#b1de6b",
+        "greenLight": "#d9f9b6",
+        "light": "#d5dae0",
+        "malibu": "#53b8ff",
+        "navy": "#01172d",
+        "orange": "#e4be79",
+        "persimmon": "#ff5353",
+        "purple": "#a479cb",
+        "red": "#e10606",
+        "red2": "#ff2e7b",
+        "red3": "#ea4848",
+        "rose": "#d08484",
+        "slate": "#596778",
+        "submarine": "#b6bcc4",
+        "turquoise": "#79cbcb",
+        "white": "#ffffff",
+        "white2": "#dddddd",
+      },
+      "dimension": Object {},
+      "fonts": Object {
+        "faFontsPath": "/css/webfonts",
+        "fontFamily": "AvenirNext, Arial",
+      },
+      "name": "main-dark-theme",
+      "size": "default",
+      "typography": Object {
+        "bodyBackground": "#011f3d",
+        "bodyFontColor": "#ffffff",
+        "bodyFontFamily": "AvenirNext, Arial",
+        "globalFontSize": "1.6rem",
+        "globalLineHeight": 1.5,
+        "globalWeightNormal": 400,
+        "headersFontColor": "#ffffff",
+        "headersFontFamily": "AvenirNext, Arial",
+        "headersFontWeight": 700,
+      },
+    }
+  }
+>
+  <SidebarDropBtn
+    isActive={false}
+    onClick={[MockFunction]}
+  >
+    <styled.button
+      data-active={false}
+      onClick={[Function]}
+      rotate={0}
+    >
+      <button
+        className="sc-AxjAm bYjPfm"
+        data-active={false}
+        onClick={[Function]}
+        rotate={0}
+      >
+        account
+      </button>
+    </styled.button>
+  </SidebarDropBtn>
+</ThemeProvider>
+`;

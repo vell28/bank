@@ -1,0 +1,420 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cardSettings reducers cardSettings/DISABLE_CARD_LIMITS_CONFIRM 1`] = `
+Object {
+  "data": Object {},
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": false,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": true,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": true,
+  },
+  "selectedCard": Object {
+    "account123": Object {
+      "card": Object {
+        "accountId": "PPY5107",
+        "availableBalance": 1897.61,
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "clientId": "6449",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "expireAt": "2022-05-01T00:00:00",
+        "id": "PPY13643",
+        "limits": Array [
+          Object {
+            "maxValue": 500,
+            "title": null,
+            "type": "DAY",
+            "usedValue": 0,
+          },
+        ],
+        "number": "5277 60_3 984",
+        "options": Object {
+          "limits": Object {
+            "disable": false,
+          },
+        },
+        "owner": Object {
+          "embossedName": "RALF WILLIAMS",
+        },
+        "paySystem": "MASTERCARD",
+        "plasticStatus": "PENDING_SHIPMENT",
+        "productType": "MAIN",
+        "status": "ACTIVE",
+      },
+    },
+  },
+}
+`;
+
+exports[`cardSettings reducers cardSettings/FETCH_CARD_UNMASKED 1`] = `
+Object {
+  "data": Object {
+    "test123": Object {
+      "cvc": "675",
+      "expireAt": "2022-05-01T00:00:00",
+      "number": "**** **10 0004 ****",
+      "owner": Object {
+        "embossedName": "RALF WILLIAMS",
+      },
+      "pin": null,
+    },
+  },
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": true,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": true,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": true,
+  },
+  "selectedCard": Object {},
+}
+`;
+
+exports[`cardSettings reducers cardSettings/INCREASE_CARD_LIMIT_CONFIRM 1`] = `
+Object {
+  "data": Object {},
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": true,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": false,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": true,
+  },
+  "selectedCard": Object {
+    "account123": Object {
+      "card": Object {
+        "accountId": "PPY5107",
+        "availableBalance": 1897.61,
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "clientId": "6449",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "expireAt": "2022-05-01T00:00:00",
+        "id": "PPY13643",
+        "limits": Array [
+          Object {
+            "maxValue": 500,
+            "title": null,
+            "type": "DAY",
+            "usedValue": 0,
+          },
+        ],
+        "number": "5277 60_3 984",
+        "options": Object {
+          "limits": Object {
+            "disable": false,
+          },
+        },
+        "owner": Object {
+          "embossedName": "RALF WILLIAMS",
+        },
+        "paySystem": "MASTERCARD",
+        "plasticStatus": "PENDING_SHIPMENT",
+        "productType": "MAIN",
+        "status": "ACTIVE",
+      },
+    },
+  },
+}
+`;
+
+exports[`cardSettings reducers cardSettings/LOCK_CARD 1`] = `
+Object {
+  "data": Object {},
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": true,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": true,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": true,
+  },
+  "selectedCard": Object {
+    "account123": Object {
+      "card": Object {
+        "accountId": "PPY5107",
+        "availableBalance": 1897.61,
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "clientId": "6449",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "expireAt": "2022-05-01T00:00:00",
+        "id": "PPY13643",
+        "limits": Array [
+          Object {
+            "maxValue": 500,
+            "title": null,
+            "type": "DAY",
+            "usedValue": 0,
+          },
+        ],
+        "number": "5277 60_3 984",
+        "options": Object {
+          "limits": Object {
+            "disable": false,
+          },
+        },
+        "owner": Object {
+          "embossedName": "RALF WILLIAMS",
+        },
+        "paySystem": "MASTERCARD",
+        "plasticStatus": "PENDING_SHIPMENT",
+        "productType": "MAIN",
+        "status": undefined,
+      },
+    },
+  },
+}
+`;
+
+exports[`cardSettings reducers cardSettings/REDUCTION_CARD_LIMIT 1`] = `
+Object {
+  "data": Object {},
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": true,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": true,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": true,
+  },
+  "selectedCard": Object {
+    "account123": Object {
+      "card": Object {
+        "accountId": "PPY5107",
+        "availableBalance": 1897.61,
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "clientId": "6449",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "expireAt": "2022-05-01T00:00:00",
+        "id": "PPY13643",
+        "limits": Array [
+          Object {
+            "maxValue": 500,
+            "title": null,
+            "type": "DAY",
+            "usedValue": 0,
+          },
+        ],
+        "number": "5277 60_3 984",
+        "options": Object {
+          "limits": Object {
+            "disable": false,
+          },
+        },
+        "owner": Object {
+          "embossedName": "RALF WILLIAMS",
+        },
+        "paySystem": "MASTERCARD",
+        "plasticStatus": "PENDING_SHIPMENT",
+        "productType": "MAIN",
+        "status": "ACTIVE",
+      },
+    },
+  },
+}
+`;
+
+exports[`cardSettings reducers cardSettings/SET_INCREASED_CARD_LIMIT 1`] = `
+Object {
+  "data": Object {},
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": false,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": true,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": true,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": true,
+  },
+  "selectedCard": Object {},
+}
+`;
+
+exports[`cardSettings reducers cardSettings/UNLOCK_CARD_CONFIRM 1`] = `
+Object {
+  "data": Object {},
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+  "limitsSettings": Object {
+    "increasedLimit": Object {
+      "maxValue": "",
+      "type": "DAY",
+    },
+    "isShownDisableLimitsTimer": true,
+  },
+  "modals": Object {
+    "isShownDisableLimits": true,
+    "isShownDisableLimitsConfirm": true,
+    "isShownIncreaseLimit": true,
+    "isShownIncreaseLimitConfirm": true,
+    "isShownLock": true,
+    "isShownUnLock": true,
+    "isShownUnLockConfirm": false,
+  },
+  "selectedCard": Object {
+    "account123": Object {
+      "card": Object {
+        "accountId": "PPY5107",
+        "availableBalance": 1897.61,
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "clientId": "6449",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "expireAt": "2022-05-01T00:00:00",
+        "id": "PPY13643",
+        "limits": Array [
+          Object {
+            "maxValue": 500,
+            "title": null,
+            "type": "DAY",
+            "usedValue": 0,
+          },
+        ],
+        "number": "5277 60_3 984",
+        "options": Object {
+          "limits": Object {
+            "disable": false,
+          },
+        },
+        "owner": Object {
+          "embossedName": "RALF WILLIAMS",
+        },
+        "paySystem": "MASTERCARD",
+        "plasticStatus": "PENDING_SHIPMENT",
+        "productType": "MAIN",
+        "status": "ACTIVE",
+      },
+    },
+  },
+}
+`;

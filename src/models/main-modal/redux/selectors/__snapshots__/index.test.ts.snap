@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main modal selector tests getMainModalState should return modal state 1`] = `
+Object {
+  "isShown": true,
+  "settings": Object {
+    "bindUrl": "/account",
+    "id": "TRANSFER_CARD_MODAL",
+  },
+  "step": 5,
+}
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Skeleton /> tests should success render, should render content if not loading 1`] = `
+<Skeleton
+  isLoading={false}
+  render={<SkeletonRender />}
+>
+  <div
+    className="any-content"
+  >
+    Any
+  </div>
+</Skeleton>
+`;
+
+exports[`<Skeleton /> tests should success render, should render skeleton if loading 1`] = `
+<Skeleton
+  isLoading={true}
+  render={<SkeletonRender />}
+>
+  <SkeletonRender>
+    <div
+      className="skeleton"
+    >
+      Any component
+    </div>
+  </SkeletonRender>
+</Skeleton>
+`;

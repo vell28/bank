@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app error selector tests getMainModalState should return modal state 1`] = `
+Object {
+  "subtitle": "error: 404",
+  "title": "Page not found",
+  "type": "404",
+}
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountDetails /> tests should success render 1`] = `
+<div
+  class="sc-AxirZ itToNK"
+>
+  <div
+    class="sc-AxiKw jiRFHs"
+  >
+    IBAN: MT98PAPY36836000002676370004519
+  </div>
+  <div
+    class="sc-AxhCb cARexh"
+  >
+    <div
+      class="sc-AxhUy lbQxAs"
+    >
+      <div
+        class="sc-AxgMl fHVZmz"
+      >
+        The beneficiarys bank
+      </div>
+      <div
+        class="sc-AxgMl sc-AxheI gwEExQ"
+      />
+    </div>
+    <div
+      class="sc-AxhUy lbQxAs"
+    >
+      <div
+        class="sc-AxgMl fHVZmz"
+      >
+        BIC
+      </div>
+      <div
+        class="sc-AxgMl sc-AxheI gwEExQ"
+      />
+    </div>
+  </div>
+  <div
+    class="sc-Axmtr fsTIDm"
+  >
+    <button
+      class="sc-AxjAm sc-AxmLO lgoOxM"
+    >
+      copy
+    </button>
+    <button
+      class="sc-AxjAm sc-AxmLO lgoOxM"
+    >
+      export
+    </button>
+  </div>
+</div>
+`;

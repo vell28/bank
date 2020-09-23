@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TransferSteps /> UI tests Should success render <SelectAmountStep /> 1`] = `
+<form
+  class="sc-AxjAm dvUDvY"
+>
+  <h1
+    class="sc-AxhCb glvSvr"
+  >
+    Transfer / Card
+  </h1>
+  <div
+    class="sc-Axmtr fabyqB"
+  >
+    <div
+      class="sc-fzqMAW fkUcXE"
+    >
+      <h2
+        class="sc-fzoydu eFunLr"
+      >
+        Transfer amount
+      </h2>
+      <div
+        class="sc-fzoYHE cimTuJ"
+      >
+        <div
+          class="sc-fzpkqZ bPKAoX"
+        >
+          EUR
+        </div>
+        <div
+          class="sc-fznWOq bwTFvw"
+        >
+          <input
+            class="sc-fznAgC bHwrKu"
+            maxlength="15"
+            name="value"
+            placeholder="00.00"
+            type="tel"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxheI boFtUy"
+  >
+    <button
+      class="sc-fzoXWK fKMMGt"
+    >
+       Next
+    </button>
+  </div>
+</form>
+`;
+
+exports[`<TransferSteps /> UI tests Should success render <SuccessStep /> 1`] = `
+<form
+  class="sc-AxjAm dvUDvY"
+>
+  <h1
+    class="sc-AxhCb glvSvr"
+  >
+    Transfer / Card
+  </h1>
+  <div
+    class="sc-AxhUy gWWhKq"
+  />
+</form>
+`;
+
+exports[`<TransferSteps /> UI tests Should success render <TransferStep3 /> 1`] = `
+<form
+  class="sc-AxjAm dvUDvY"
+>
+  <h1
+    class="sc-AxhCb glvSvr"
+  >
+    Transfer / Card
+  </h1>
+  <div
+    class="sc-Axmtr fabyqB"
+  >
+    <div
+      class="sc-fzqMAW fkUcXE"
+    >
+      <h2
+        class="sc-fzoydu eFunLr"
+      >
+        Sms code
+      </h2>
+      <div
+        class="sc-fzoYHE cimTuJ"
+      >
+        <div
+          class="sc-fznWOq bwTFvw"
+        >
+          <input
+            class="sc-fznAgC bHwrKu"
+            name="code"
+            placeholder="••••"
+            type="tel"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxheI boFtUy"
+  >
+    <button
+      class="sc-fzoXWK fKMMGt"
+    >
+       Next
+    </button>
+  </div>
+  <div
+    class="sc-fzomuh cdMKqE"
+  >
+    Re-send code
+  </div>
+</form>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`authorization reducers token_reducer/AUTH_REMOVE_TOKEN 1`] = `
+Object {
+  "data": Object {
+    "dev-id": "test",
+    "isShownLogoutConfirmModal": false,
+    "service_code": "OTFIN",
+    "token-firebase": "",
+  },
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": false,
+}
+`;
+
+exports[`authorization reducers token_reducer/AUTH_UPDATE_TOKEN 1`] = `
+Object {
+  "data": Object {
+    "success": true,
+    "token": "9bb5da20816e1e42a3a9a524cb7573a9",
+  },
+  "errors": Array [],
+  "isError": false,
+  "isLoading": false,
+  "isSuccess": true,
+}
+`;

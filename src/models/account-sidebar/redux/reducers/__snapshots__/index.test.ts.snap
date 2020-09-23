@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`accountSidebar reducers accountSidebar/UPDATE_ACCOUNT_SIDEBAR - should hide sidebar 1`] = `
+Object {
+  "data": Object {},
+  "isShown": false,
+}
+`;
+
+exports[`accountSidebar reducers accountSidebar/UPDATE_ACCOUNT_SIDEBAR - should show sidebar 1`] = `
+Object {
+  "data": Object {},
+  "isShown": true,
+}
+`;
+
+exports[`accountSidebar reducers accountSidebar/UPDATE_ACCOUNT_SIDEBAR 1`] = `
+Object {
+  "data": Object {
+    "accountId": true,
+  },
+  "isShown": false,
+}
+`;

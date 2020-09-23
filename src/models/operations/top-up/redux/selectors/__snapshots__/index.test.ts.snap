@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`top up from card selector tests getPaymentCardData should return topup from card data 1`] = `
+Object {
+  "amount": "10",
+  "currency": "USD",
+  "topupFromCard": Object {
+    "cvv2": "000",
+    "expireDate": "",
+    "holderCity": "city",
+    "holderCountry": "country",
+    "holderName": "Test",
+    "isHolder": false,
+    "pan": "123123",
+  },
+  "topupToAccountId": "MT98PAPY36836000002676370004519",
+}
+`;

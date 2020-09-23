@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`organizations reducers organizations/FETCH_ACCOUNTS 1`] = `
+Array [
+  Object {
+    "accounts": Array [
+      Object {
+        "accountName": "MT98PAPY36836000002676370004519",
+        "accountType": "PHYSICAL",
+        "accruedInterest": null,
+        "availableBalance": 1897.61,
+        "availableOperations": Array [],
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "bonusProgramActivate": false,
+        "clientId": "6449",
+        "color": "DEFAULT",
+        "createdAt": "2019-11-24T14:59:55",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "id": "PPY5107",
+        "number": "MT98PAPY36836000002676370004519",
+        "status": "ACTIVE",
+      },
+      Object {
+        "accountName": "MT98PAPY36836000002676370004519",
+        "accountType": "JURIDICAL",
+        "accruedInterest": null,
+        "availableBalance": 1897.61,
+        "availableOperations": Array [],
+        "balance": 0,
+        "balanceHold": 0,
+        "balances": Array [
+          Object {
+            "availableBalance": 1897.61,
+            "balance": 1030.05,
+            "balanceHold": 0,
+            "currency": "EUR",
+          },
+        ],
+        "bonusProgramActivate": false,
+        "clientId": "6449",
+        "color": "DEFAULT",
+        "createdAt": "2019-11-24T14:59:55",
+        "currency": Object {
+          "code": "EUR",
+        },
+        "id": "PPY6666",
+        "number": "MT98PAPY36836000002676370004519",
+        "status": "ACTIVE",
+      },
+    ],
+    "cards": Array [],
+    "client": Object {
+      "address": Object {
+        "apartmentNumber": 42,
+        "city": "Düsseldorf",
+        "countryCode": "DE",
+        "postalCode": "40479",
+        "province": "North Rhine-Westphalia",
+        "street": "Gartenstraße",
+        "streetNumber": "53",
+      },
+      "citizenship": "Germany",
+      "email": "test.client@test.com",
+      "id": "42",
+      "name": "Test Client",
+      "phoneNumber": "222333",
+    },
+    "clientName": "Duplicate?",
+    "id": 0,
+    "name": "testOrg",
+    "tin": "",
+    "title": "title",
+  },
+]
+`;

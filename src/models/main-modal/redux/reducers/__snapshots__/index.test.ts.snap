@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`mainModal reducers mainModal/UPDATE_MAIN_MODAL 1`] = `
+Object {
+  "isShown": true,
+  "settings": Object {
+    "bindUrl": "/account",
+    "id": "TRANSFER_MODAL",
+  },
+  "step": 2,
+}
+`;

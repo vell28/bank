@@ -1,0 +1,448 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppHeader /> tests should success render, should highlight active link 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "breakpoints": Array [
+            "576px",
+            "768px",
+            "992px",
+            "1200px",
+          ],
+          "colors": Object {
+            "alto": "#dedede",
+            "asparagus": "#77a45c",
+            "black": "#000000",
+            "blue": "#008cff",
+            "blueLight": "#70cde4",
+            "borderLight": "#cad3db",
+            "dark": "#030303",
+            "darkBlue": "#011f3d",
+            "darkBlue2": "#132F4B",
+            "elephant": "#12304b",
+            "feijoa": "#93d77e",
+            "gray": "#a5adb8",
+            "gray10": "#cad3db",
+            "gray11": "#959fac",
+            "gray2": "#a7a9ac",
+            "gray3": "#a1aab6",
+            "gray4": "#e8e8e8",
+            "gray5": "#cbcbcb",
+            "gray6": "#eaeaea",
+            "gray7": "#acacac",
+            "gray9": "#9faab7",
+            "grayHover": "#00000008",
+            "grayLight": "#cdd0d5",
+            "green": "#7ed321",
+            "green1": "#5ba00f",
+            "green2": "#4dd964",
+            "green3": "#77a45c",
+            "green4": "#b1de6b",
+            "greenLight": "#d9f9b6",
+            "light": "#d5dae0",
+            "malibu": "#53b8ff",
+            "navy": "#01172d",
+            "orange": "#e4be79",
+            "persimmon": "#ff5353",
+            "purple": "#a479cb",
+            "red": "#e10606",
+            "red2": "#ff2e7b",
+            "red3": "#ea4848",
+            "rose": "#d08484",
+            "slate": "#596778",
+            "submarine": "#b6bcc4",
+            "turquoise": "#79cbcb",
+            "white": "#ffffff",
+            "white2": "#dddddd",
+          },
+          "dimension": Object {},
+          "fonts": Object {
+            "faFontsPath": "/css/webfonts",
+            "fontFamily": "AvenirNext, Arial",
+          },
+          "name": "main-dark-theme",
+          "size": "default",
+          "typography": Object {
+            "bodyBackground": "#011f3d",
+            "bodyFontColor": "#ffffff",
+            "bodyFontFamily": "AvenirNext, Arial",
+            "globalFontSize": "1.6rem",
+            "globalLineHeight": 1.5,
+            "globalWeightNormal": 400,
+            "headersFontColor": "#ffffff",
+            "headersFontFamily": "AvenirNext, Arial",
+            "headersFontWeight": 700,
+          },
+        }
+      }
+    >
+      <AppHeader
+        activeIndex={2}
+        activeLng="ru"
+        languages={
+          Array [
+            Object {
+              "key": "en",
+              "nativeName": "English",
+            },
+            Object {
+              "key": "de",
+              "nativeName": "Deutsch",
+            },
+          ]
+        }
+        navList={
+          Array [
+            Object {
+              "name": "banking",
+              "path": "/",
+            },
+            Object {
+              "name": "bonuses",
+              "path": "/bonuses",
+            },
+            Object {
+              "name": "business",
+              "path": "/business",
+            },
+            Object {
+              "name": "cryptotrading",
+              "path": "https://frontend.stage.ak-ecosystem.com/",
+            },
+            Object {
+              "name": "insurance",
+              "path": "/insurance",
+            },
+            Object {
+              "name": "profile",
+              "path": "/profile",
+            },
+          ]
+        }
+        onLngChange={[MockFunction]}
+      >
+        <styled.div>
+          <div
+            className="sc-AxjAm fmHMYc"
+          >
+            <styled.div>
+              <div
+                className="sc-AxirZ eJNiei"
+              >
+                <styled.div>
+                  <div
+                    className="sc-AxiKw ewoZkl"
+                  >
+                    <Styled(Link)
+                      to="/"
+                    >
+                      <Link
+                        className="sc-Axmtr kkOJu"
+                        to="/"
+                      >
+                        <LinkAnchor
+                          className="sc-Axmtr kkOJu"
+                          href="/"
+                          navigate={[Function]}
+                        >
+                          <a
+                            className="sc-Axmtr kkOJu"
+                            href="/"
+                            onClick={[Function]}
+                          >
+                            <img
+                              alt="logo"
+                              src="logo.svg"
+                            />
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </Styled(Link)>
+                  </div>
+                </styled.div>
+                <styled.nav>
+                  <nav
+                    className="sc-AxhCb iCmgJC"
+                  >
+                    <styled.ul>
+                      <ul
+                        className="sc-AxhUy fISUny"
+                      >
+                        <styled.li>
+                          <li
+                            className="sc-AxgMl khpreb"
+                          >
+                            <Styled(Link)
+                              data-active={false}
+                              to="/"
+                            >
+                              <Link
+                                className="sc-AxmLO LcVuO"
+                                data-active={false}
+                                to="/"
+                              >
+                                <LinkAnchor
+                                  className="sc-AxmLO LcVuO"
+                                  data-active={false}
+                                  href="/"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    className="sc-AxmLO LcVuO"
+                                    data-active={false}
+                                    href="/"
+                                    onClick={[Function]}
+                                  >
+                                    Banking
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Styled(Link)>
+                          </li>
+                        </styled.li>
+                        <styled.li>
+                          <li
+                            className="sc-AxgMl khpreb"
+                          >
+                            <Styled(Link)
+                              data-active={false}
+                              to="/bonuses"
+                            >
+                              <Link
+                                className="sc-AxmLO LcVuO"
+                                data-active={false}
+                                to="/bonuses"
+                              >
+                                <LinkAnchor
+                                  className="sc-AxmLO LcVuO"
+                                  data-active={false}
+                                  href="/bonuses"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    className="sc-AxmLO LcVuO"
+                                    data-active={false}
+                                    href="/bonuses"
+                                    onClick={[Function]}
+                                  >
+                                    Bonuses
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Styled(Link)>
+                          </li>
+                        </styled.li>
+                        <styled.li>
+                          <li
+                            className="sc-AxgMl khpreb"
+                          >
+                            <Styled(Link)
+                              data-active={true}
+                              to="/business"
+                            >
+                              <Link
+                                className="sc-AxmLO hxwued"
+                                data-active={true}
+                                to="/business"
+                              >
+                                <LinkAnchor
+                                  className="sc-AxmLO hxwued"
+                                  data-active={true}
+                                  href="/business"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    className="sc-AxmLO hxwued"
+                                    data-active={true}
+                                    href="/business"
+                                    onClick={[Function]}
+                                  >
+                                    Business
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Styled(Link)>
+                          </li>
+                        </styled.li>
+                        <styled.li>
+                          <li
+                            className="sc-AxgMl khpreb"
+                          >
+                            <styled.a
+                              href="https://frontend.stage.ak-ecosystem.com/"
+                              target="_blank"
+                            >
+                              <a
+                                className="sc-fzozJi bxiZlP"
+                                href="https://frontend.stage.ak-ecosystem.com/"
+                                target="_blank"
+                              >
+                                AK Crypto
+                              </a>
+                            </styled.a>
+                          </li>
+                        </styled.li>
+                        <styled.li>
+                          <li
+                            className="sc-AxgMl khpreb"
+                          >
+                            <Styled(Link)
+                              data-active={false}
+                              to="/insurance"
+                            >
+                              <Link
+                                className="sc-AxmLO LcVuO"
+                                data-active={false}
+                                to="/insurance"
+                              >
+                                <LinkAnchor
+                                  className="sc-AxmLO LcVuO"
+                                  data-active={false}
+                                  href="/insurance"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    className="sc-AxmLO LcVuO"
+                                    data-active={false}
+                                    href="/insurance"
+                                    onClick={[Function]}
+                                  >
+                                    Insurance
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Styled(Link)>
+                          </li>
+                        </styled.li>
+                        <styled.li>
+                          <li
+                            className="sc-AxgMl khpreb"
+                          >
+                            <Styled(Link)
+                              data-active={false}
+                              to="/profile"
+                            >
+                              <Link
+                                className="sc-AxmLO LcVuO"
+                                data-active={false}
+                                to="/profile"
+                              >
+                                <LinkAnchor
+                                  className="sc-AxmLO LcVuO"
+                                  data-active={false}
+                                  href="/profile"
+                                  navigate={[Function]}
+                                >
+                                  <a
+                                    className="sc-AxmLO LcVuO"
+                                    data-active={false}
+                                    href="/profile"
+                                    onClick={[Function]}
+                                  >
+                                    Profile
+                                  </a>
+                                </LinkAnchor>
+                              </Link>
+                            </Styled(Link)>
+                          </li>
+                        </styled.li>
+                      </ul>
+                    </styled.ul>
+                  </nav>
+                </styled.nav>
+                <styled.div>
+                  <div
+                    className="sc-AxheI fJlcfU"
+                  >
+                    <LanguageSelector
+                      activeLng="ru"
+                      languages={
+                        Array [
+                          Object {
+                            "key": "en",
+                            "nativeName": "English",
+                          },
+                          Object {
+                            "key": "de",
+                            "nativeName": "Deutsch",
+                          },
+                        ]
+                      }
+                      onLngChange={[MockFunction]}
+                    >
+                      <styled.div>
+                        <div
+                          className="sc-fzoLsD kFOIiu"
+                        >
+                          <styled.div
+                            isShown={false}
+                            onClick={[Function]}
+                          >
+                            <div
+                              className="sc-fzpans gIwDBx"
+                              onClick={[Function]}
+                            >
+                              ru
+                              <i
+                                className="fas fa-chevron-down"
+                              />
+                            </div>
+                          </styled.div>
+                          <styled.div
+                            isShown={false}
+                          >
+                            <div
+                              className="sc-fzplWN jHCTbU"
+                            >
+                              <span
+                                key="en"
+                                onClick={[Function]}
+                              >
+                                en
+                              </span>
+                              <span
+                                key="de"
+                                onClick={[Function]}
+                              >
+                                de
+                              </span>
+                            </div>
+                          </styled.div>
+                        </div>
+                      </styled.div>
+                    </LanguageSelector>
+                  </div>
+                </styled.div>
+              </div>
+            </styled.div>
+          </div>
+        </styled.div>
+      </AppHeader>
+    </ThemeProvider>
+  </Router>
+</BrowserRouter>
+`;

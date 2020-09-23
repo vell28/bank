@@ -1,0 +1,573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardSlider /> tests should success render, should render 3 slide 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "breakpoints": Array [
+        "576px",
+        "768px",
+        "992px",
+        "1200px",
+      ],
+      "colors": Object {
+        "alto": "#dedede",
+        "asparagus": "#77a45c",
+        "black": "#000000",
+        "blue": "#008cff",
+        "blueLight": "#70cde4",
+        "borderLight": "#cad3db",
+        "dark": "#030303",
+        "darkBlue": "#011f3d",
+        "darkBlue2": "#132F4B",
+        "elephant": "#12304b",
+        "feijoa": "#93d77e",
+        "gray": "#a5adb8",
+        "gray10": "#cad3db",
+        "gray11": "#959fac",
+        "gray2": "#a7a9ac",
+        "gray3": "#a1aab6",
+        "gray4": "#e8e8e8",
+        "gray5": "#cbcbcb",
+        "gray6": "#eaeaea",
+        "gray7": "#acacac",
+        "gray9": "#9faab7",
+        "grayHover": "#00000008",
+        "grayLight": "#cdd0d5",
+        "green": "#7ed321",
+        "green1": "#5ba00f",
+        "green2": "#4dd964",
+        "green3": "#77a45c",
+        "green4": "#b1de6b",
+        "greenLight": "#d9f9b6",
+        "light": "#d5dae0",
+        "malibu": "#53b8ff",
+        "navy": "#01172d",
+        "orange": "#e4be79",
+        "persimmon": "#ff5353",
+        "purple": "#a479cb",
+        "red": "#e10606",
+        "red2": "#ff2e7b",
+        "red3": "#ea4848",
+        "rose": "#d08484",
+        "slate": "#596778",
+        "submarine": "#b6bcc4",
+        "turquoise": "#79cbcb",
+        "white": "#ffffff",
+        "white2": "#dddddd",
+      },
+      "dimension": Object {},
+      "fonts": Object {
+        "faFontsPath": "/css/webfonts",
+        "fontFamily": "AvenirNext, Arial",
+      },
+      "name": "main-dark-theme",
+      "size": "default",
+      "typography": Object {
+        "bodyBackground": "#011f3d",
+        "bodyFontColor": "#ffffff",
+        "bodyFontFamily": "AvenirNext, Arial",
+        "globalFontSize": "1.6rem",
+        "globalLineHeight": 1.5,
+        "globalWeightNormal": 400,
+        "headersFontColor": "#ffffff",
+        "headersFontFamily": "AvenirNext, Arial",
+        "headersFontWeight": 700,
+      },
+    }
+  }
+>
+  <CardSlider
+    accountId="accountId"
+    cards={
+      Array [
+        Object {
+          "accountId": "PPY5107",
+          "availableBalance": 1897.61,
+          "balance": 0,
+          "balanceHold": 0,
+          "balances": Array [
+            Object {
+              "availableBalance": 1897.61,
+              "balance": 1030.05,
+              "balanceHold": 0,
+              "currency": "EUR",
+            },
+          ],
+          "clientId": "6449",
+          "currency": Object {
+            "code": "EUR",
+          },
+          "expireAt": "2022-05-01T00:00:00",
+          "id": "PPY13643",
+          "limits": Array [
+            Object {
+              "maxValue": 500,
+              "title": null,
+              "type": "DAY",
+              "usedValue": 0,
+            },
+          ],
+          "number": "5277 60_3 984",
+          "options": Object {
+            "limits": Object {
+              "disable": false,
+            },
+          },
+          "owner": Object {
+            "embossedName": "RALF WILLIAMS",
+          },
+          "paySystem": "MASTERCARD",
+          "plasticStatus": "PENDING_SHIPMENT",
+          "productType": "MAIN",
+          "status": "ACTIVE",
+        },
+        Object {
+          "accountId": "PPY5107",
+          "availableBalance": 1897.61,
+          "balance": 0,
+          "balanceHold": 0,
+          "balances": Array [
+            Object {
+              "availableBalance": 1897.61,
+              "balance": 1030.05,
+              "balanceHold": 0,
+              "currency": "EUR",
+            },
+          ],
+          "clientId": "6449",
+          "currency": Object {
+            "code": "EUR",
+          },
+          "expireAt": "2022-05-01T00:00:00",
+          "id": "PPY13643",
+          "limits": Array [
+            Object {
+              "maxValue": 500,
+              "title": null,
+              "type": "DAY",
+              "usedValue": 0,
+            },
+          ],
+          "number": "5277 60_3 984",
+          "options": Object {
+            "limits": Object {
+              "disable": false,
+            },
+          },
+          "owner": Object {
+            "embossedName": "RALF WILLIAMS",
+          },
+          "paySystem": "MASTERCARD",
+          "plasticStatus": "PENDING_SHIPMENT",
+          "productType": "MAIN",
+          "status": "ACTIVE",
+        },
+        Object {
+          "accountId": "PPY5107",
+          "availableBalance": 1897.61,
+          "balance": 0,
+          "balanceHold": 0,
+          "balances": Array [
+            Object {
+              "availableBalance": 1897.61,
+              "balance": 1030.05,
+              "balanceHold": 0,
+              "currency": "EUR",
+            },
+          ],
+          "clientId": "6449",
+          "currency": Object {
+            "code": "EUR",
+          },
+          "expireAt": "2022-05-01T00:00:00",
+          "id": "PPY13643",
+          "limits": Array [
+            Object {
+              "maxValue": 500,
+              "title": null,
+              "type": "DAY",
+              "usedValue": 0,
+            },
+          ],
+          "number": "5277 60_3 984",
+          "options": Object {
+            "limits": Object {
+              "disable": false,
+            },
+          },
+          "owner": Object {
+            "embossedName": "RALF WILLIAMS",
+          },
+          "paySystem": "MASTERCARD",
+          "plasticStatus": "PENDING_SHIPMENT",
+          "productType": "MAIN",
+          "status": "ACTIVE",
+        },
+      ]
+    }
+    onSelectCard={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            "accountId",
+            Object {
+              "accountId": "PPY5107",
+              "availableBalance": 1897.61,
+              "balance": 0,
+              "balanceHold": 0,
+              "balances": Array [
+                Object {
+                  "availableBalance": 1897.61,
+                  "balance": 1030.05,
+                  "balanceHold": 0,
+                  "currency": "EUR",
+                },
+              ],
+              "clientId": "6449",
+              "currency": Object {
+                "code": "EUR",
+              },
+              "expireAt": "2022-05-01T00:00:00",
+              "id": "PPY13643",
+              "limits": Array [
+                Object {
+                  "maxValue": 500,
+                  "title": null,
+                  "type": "DAY",
+                  "usedValue": 0,
+                },
+              ],
+              "number": "5277 60_3 984",
+              "options": Object {
+                "limits": Object {
+                  "disable": false,
+                },
+              },
+              "owner": Object {
+                "embossedName": "RALF WILLIAMS",
+              },
+              "paySystem": "MASTERCARD",
+              "plasticStatus": "PENDING_SHIPMENT",
+              "productType": "MAIN",
+              "status": "ACTIVE",
+            },
+            1,
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+  >
+    <styled.div>
+      <div
+        className="sc-AxmLO dhoKOj"
+      >
+        <ReactIdSwiper
+          ContainerEl="div"
+          WrapperEl="div"
+          breakpoints={
+            Object {
+              "1024": Object {
+                "slidesPerView": 3,
+              },
+              "1280": Object {
+                "slidesPerView": 3,
+              },
+              "1440": Object {
+                "slidesPerView": 3,
+              },
+            }
+          }
+          centeredSlides={true}
+          containerClass="swiper-container"
+          getSwiper={[Function]}
+          normalizeSlideIndex={true}
+          pagination={
+            Object {
+              "clickable": true,
+              "el": ".swiper-pagination",
+              "renderBullet": [Function],
+            }
+          }
+          renderNextButton={[Function]}
+          renderPagination={[Function]}
+          renderParallax={[Function]}
+          renderPrevButton={[Function]}
+          renderScrollbar={[Function]}
+          slideClass="swiper-slide"
+          slidesPerView={3}
+          spaceBetween={0}
+          wrapperClass="swiper-wrapper"
+        >
+          <div
+            className="swiper-container"
+          >
+            <div
+              className="swiper-wrapper"
+            >
+              <div
+                className="swiper-slide"
+                key=".$PPY13643"
+              >
+                <div
+                  className="account-card"
+                >
+                  <CardPreview
+                    cardNumber="5277 60_3 984"
+                    expireAt="2022-05-01T00:00:00"
+                    fontSize="6.3"
+                    name="RALF WILLIAMS"
+                    productType="MAIN"
+                    status="ACTIVE"
+                  >
+                    <styled.div
+                      fontSize="6.3"
+                    >
+                      <div
+                        className="sc-AxjAm jLSqkX"
+                        fontSize="6.3"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-AxirZ jfANIK"
+                          >
+                            <styled.div
+                              isBlocked={false}
+                              type="MAIN"
+                            >
+                              <div
+                                className="sc-AxiKw bOapOm"
+                                type="MAIN"
+                              >
+                                <styled.div
+                                  key="5277 60_3 984"
+                                >
+                                  <div
+                                    className="sc-AxhCb hRDTBq"
+                                  >
+                                    5277 60** **** 3984
+                                  </div>
+                                </styled.div>
+                                <styled.div>
+                                  <div
+                                    className="sc-AxhUy cCdIUv"
+                                  >
+                                    RALF WILLIAMS
+                                  </div>
+                                </styled.div>
+                                <styled.div>
+                                  <div
+                                    className="sc-AxgMl hIAiEh"
+                                  >
+                                    05/22
+                                  </div>
+                                </styled.div>
+                              </div>
+                            </styled.div>
+                          </div>
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </CardPreview>
+                </div>
+              </div>
+              <div
+                className="swiper-slide"
+                key=".$PPY13643"
+              >
+                <div
+                  className="account-card"
+                >
+                  <CardPreview
+                    cardNumber="5277 60_3 984"
+                    expireAt="2022-05-01T00:00:00"
+                    fontSize="6.3"
+                    name="RALF WILLIAMS"
+                    productType="MAIN"
+                    status="ACTIVE"
+                  >
+                    <styled.div
+                      fontSize="6.3"
+                    >
+                      <div
+                        className="sc-AxjAm jLSqkX"
+                        fontSize="6.3"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-AxirZ jfANIK"
+                          >
+                            <styled.div
+                              isBlocked={false}
+                              type="MAIN"
+                            >
+                              <div
+                                className="sc-AxiKw bOapOm"
+                                type="MAIN"
+                              >
+                                <styled.div
+                                  key="5277 60_3 984"
+                                >
+                                  <div
+                                    className="sc-AxhCb hRDTBq"
+                                  >
+                                    5277 60** **** 3984
+                                  </div>
+                                </styled.div>
+                                <styled.div>
+                                  <div
+                                    className="sc-AxhUy cCdIUv"
+                                  >
+                                    RALF WILLIAMS
+                                  </div>
+                                </styled.div>
+                                <styled.div>
+                                  <div
+                                    className="sc-AxgMl hIAiEh"
+                                  >
+                                    05/22
+                                  </div>
+                                </styled.div>
+                              </div>
+                            </styled.div>
+                          </div>
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </CardPreview>
+                </div>
+              </div>
+              <div
+                className="swiper-slide"
+                key=".$PPY13643"
+              >
+                <div
+                  className="account-card"
+                >
+                  <CardPreview
+                    cardNumber="5277 60_3 984"
+                    expireAt="2022-05-01T00:00:00"
+                    fontSize="6.3"
+                    name="RALF WILLIAMS"
+                    productType="MAIN"
+                    status="ACTIVE"
+                  >
+                    <styled.div
+                      fontSize="6.3"
+                    >
+                      <div
+                        className="sc-AxjAm jLSqkX"
+                        fontSize="6.3"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-AxirZ jfANIK"
+                          >
+                            <styled.div
+                              isBlocked={false}
+                              type="MAIN"
+                            >
+                              <div
+                                className="sc-AxiKw bOapOm"
+                                type="MAIN"
+                              >
+                                <styled.div
+                                  key="5277 60_3 984"
+                                >
+                                  <div
+                                    className="sc-AxhCb hRDTBq"
+                                  >
+                                    5277 60** **** 3984
+                                  </div>
+                                </styled.div>
+                                <styled.div>
+                                  <div
+                                    className="sc-AxhUy cCdIUv"
+                                  >
+                                    RALF WILLIAMS
+                                  </div>
+                                </styled.div>
+                                <styled.div>
+                                  <div
+                                    className="sc-AxgMl hIAiEh"
+                                  >
+                                    05/22
+                                  </div>
+                                </styled.div>
+                              </div>
+                            </styled.div>
+                          </div>
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </CardPreview>
+                </div>
+              </div>
+              <div
+                className="swiper-slide"
+                key=".$add_new"
+              >
+                <div
+                  className="add-card"
+                >
+                  <NoTypeCardPreview
+                    fontSize="24"
+                  >
+                    <styled.div
+                      fontSize="24"
+                    >
+                      <div
+                        className="sc-fzozJi dRiTQP"
+                        fontSize="24"
+                      >
+                        <styled.div>
+                          <div
+                            className="sc-fzoLsD jfPHaC"
+                          >
+                            <styled.div>
+                              <div
+                                className="sc-fzpans gFAgrH"
+                              >
+                                + new card
+                              </div>
+                            </styled.div>
+                          </div>
+                        </styled.div>
+                      </div>
+                    </styled.div>
+                  </NoTypeCardPreview>
+                </div>
+              </div>
+            </div>
+            <div
+              className="swiper-pagination"
+            />
+          </div>
+        </ReactIdSwiper>
+        <div
+          className="arrow-btn btn-prev"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-angle-left"
+          />
+        </div>
+        <div
+          className="arrow-btn btn-next"
+          onClick={[Function]}
+        >
+          <i
+            className="fas fa-angle-right"
+          />
+        </div>
+      </div>
+    </styled.div>
+  </CardSlider>
+</ThemeProvider>
+`;

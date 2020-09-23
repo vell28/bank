@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> tests Should success render <App /> 1`] = `
+Array [
+  <header
+    class="sc-pzMyG cnRxKu"
+  >
+    <div
+      class="sc-pYA-dN ifxZWQ"
+    >
+      <div
+        class="sc-oUcyK kUELzh"
+      >
+        <div
+          class="sc-pbYBj blcahG"
+        >
+          <a
+            class="sc-pzYib irdyRE"
+            href="/"
+          >
+            <img
+              alt="logo"
+              src="logo.svg"
+            />
+          </a>
+        </div>
+        <nav
+          class="sc-pkUbs cFdKPd"
+        >
+          <ul
+            class="sc-psQdR bvhAnH"
+          >
+            <li
+              class="sc-qPlga lpcyjb"
+            >
+              <a
+                class="sc-pItiW lfpNxB"
+                data-active="true"
+                href="/"
+              >
+                Banking
+              </a>
+            </li>
+            <li
+              class="sc-qPlga lpcyjb"
+            >
+              <a
+                class="sc-pItiW bzyDsu"
+                data-active="false"
+                href="/bonuses"
+              >
+                Bonuses
+              </a>
+            </li>
+            <li
+              class="sc-qPlga lpcyjb"
+            >
+              <a
+                class="sc-pItiW bzyDsu"
+                data-active="false"
+                href="/business"
+              >
+                Business
+              </a>
+            </li>
+            <li
+              class="sc-qPlga lpcyjb"
+            >
+              <a
+                class="sc-pQSRh hyqOgF"
+                href="https://frontend.stage.ak-ecosystem.com/"
+                target="_blank"
+              >
+                AK Crypto
+              </a>
+            </li>
+            <li
+              class="sc-qPlga lpcyjb"
+            >
+              <a
+                class="sc-pItiW bzyDsu"
+                data-active="false"
+                href="/insurance"
+              >
+                Insurance
+              </a>
+            </li>
+            <li
+              class="sc-qPlga lpcyjb"
+            >
+              <a
+                class="sc-pItiW bzyDsu"
+                data-active="false"
+                href="/profile"
+              >
+                Profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="sc-qXhiz dlykSn"
+        >
+          <div
+            class="sc-pZnSc fWJhPK"
+          >
+            <div
+              class="sc-oUoif kSFiEX"
+            >
+              en
+              <i
+                class="fas fa-chevron-down"
+              />
+            </div>
+            <div
+              class="sc-pcJja ijAyKj"
+            >
+              <span>
+                en
+              </span>
+              <span>
+                de
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <div
+    class="sc-qZtCU vLkXa"
+  >
+    <main
+      class="sc-pHIBf hcryLZ"
+    >
+      <aside
+        class="sc-ptSuy euIclc"
+      >
+        <div
+          class="sc-paWVw kmivto"
+        >
+          <div
+            class="sc-pjTqr jgLscH"
+          >
+            <button
+              class="sc-oTaid fJiNEa"
+              data-active="false"
+              rotate="0"
+            >
+              accounts
+            </button>
+          </div>
+          <div
+            class="sc-qQlgh lbVPQl"
+            radius="25"
+          >
+            <div
+              class="sc-prQdK bVkINF"
+              radius="25"
+            >
+              <div
+                class="sc-qYsMX iMmCpB"
+                data-overflow="true"
+              >
+                <div
+                  class="sc-pKLCU jIUMiD"
+                >
+                  <div
+                    class="sc-pTHXP lpvcrT"
+                  >
+                    <span>
+                      personal
+                    </span>
+                  </div>
+                  <div
+                    class="sc-pTHXP xhpDa"
+                  >
+                    <span>
+                      Business
+                    </span>
+                  </div>
+                </div>
+                <div
+                  class="sc-pCOPB iWeFbB"
+                >
+                  <span>
+                    done
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-qOiPt heACUx"
+        >
+          <div
+            class="sc-qYsMX dyIjFz"
+          >
+            <div
+              class="sc-pKLCU jIUMiD"
+            />
+          </div>
+          <div
+            class="sc-qWfCM dJAqyo"
+          >
+            <a
+              class="sc-fznLPX eydJxS"
+              href="/create-account"
+            >
+              new account
+            </a>
+          </div>
+        </div>
+      </aside>
+      <div
+        class="sc-pQEbo kEbPXp"
+      >
+        <section
+          class="sc-qPwPv kUlfru"
+        >
+          <div
+            class="sc-qXRQq gwPFEl"
+          >
+            <button
+              class="sc-ptDSg eQQejW"
+            >
+              <svg
+                height="12"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.263 6L12 10.737 10.737 12 6 7.263 1.263 12 0 10.737 4.737 6 0 1.263 1.263 0 6 4.737 10.737 0 12 1.263z"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        <div
+          class="sc-pliRl bgDcUI"
+        >
+          <img
+            alt="keyhole"
+            src="icon-keyhole.svg"
+          />
+        </div>
+      </div>
+      <aside
+        class="sc-pbKro sc-pkfsj bTKahU"
+      >
+        <div
+          class="sc-paWVw kmivto"
+        >
+          <div
+            class="sc-pjTqr jgLscH"
+          >
+            <button
+              class="sc-oTaid fJiNEa"
+              data-active="false"
+              rotate="0"
+            >
+              history
+            </button>
+          </div>
+          <div
+            class="sc-qQlgh lbVPQl"
+            radius="25"
+          >
+            <div
+              class="sc-prQdK bVkINF"
+              radius="25"
+            >
+              <div
+                class="sc-qWSGh jTNOhl"
+                id="scrollableDiv"
+              >
+                <div
+                  class="sc-fzoLsD foCwer"
+                >
+                  <svg
+                    height="26"
+                    viewBox="0 0 26 26"
+                    width="26"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="#011F3D"
+                      fill-rule="nonzero"
+                    >
+                      <path
+                        d="M12.8.25a.5.5 0 0 1 .5.5v4.82a.5.5 0 0 1-1 0V.75a.5.5 0 0 1 .5-.5z"
+                      />
+                      <path
+                        d="M12.8 19.53a.5.5 0 0 1 .5.5v4.82a.5.5 0 0 1-1 0v-4.82a.5.5 0 0 1 .5-.5z"
+                        opacity=".4"
+                      />
+                      <path
+                        d="M9.435 6.972a.496.496 0 0 1-.683-.183l-2.41-4.175a.5.5 0 0 1 .866-.5l2.41 4.175a.5.5 0 0 1-.183.683z"
+                        opacity=".9"
+                      />
+                      <path
+                        d="M19.075 23.669a.496.496 0 0 1-.683-.183l-2.41-4.175a.5.5 0 0 1 .866-.5l2.41 4.175a.5.5 0 0 1-.183.683z"
+                        opacity=".3"
+                      />
+                      <path
+                        d="M6.972 9.435a.5.5 0 0 1-.683.183l-4.175-2.41a.5.5 0 0 1 .5-.866l4.175 2.41a.5.5 0 0 1 .183.683z"
+                        opacity=".8"
+                      />
+                      <path
+                        d="M23.669 19.075a.5.5 0 0 1-.683.183l-4.175-2.41a.5.5 0 1 1 .5-.866l4.175 2.41a.5.5 0 0 1 .183.683z"
+                        opacity=".2"
+                      />
+                      <path
+                        d="M5.57 12.3a.5.5 0 0 1 0 1H.75a.5.5 0 0 1 0-1h4.82z"
+                        opacity=".7"
+                      />
+                      <path
+                        d="M24.85 12.3a.5.5 0 0 1 0 1h-4.82a.5.5 0 0 1 0-1h4.82z"
+                        opacity=".1"
+                      />
+                      <path
+                        d="M6.789 16.848l-4.175 2.41a.496.496 0 0 1-.683-.183.5.5 0 0 1 .183-.683l4.175-2.41a.5.5 0 1 1 .5.866z"
+                        opacity=".6"
+                      />
+                      <path
+                        d="M23.486 7.208l-4.175 2.41a.497.497 0 0 1-.683-.183.5.5 0 0 1 .183-.683l4.175-2.41a.5.5 0 1 1 .5.866z"
+                        opacity=".05"
+                      />
+                      <path
+                        d="M9.618 19.311l-2.41 4.175a.5.5 0 1 1-.866-.5l2.41-4.175a.5.5 0 1 1 .866.5z"
+                        opacity=".5"
+                      />
+                      <path
+                        d="M19.258 2.614l-2.41 4.175a.5.5 0 1 1-.866-.5l2.41-4.174a.5.5 0 1 1 .866.5z"
+                        opacity=".01"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>,
+]
+`;
